@@ -9,7 +9,9 @@ import (
 	"unicode"
 )
 
-func main() {
+
+
+func day1Solution(){
     file, err := os.Open("input.txt")
     if err != nil {
         log.Fatal(err)
